@@ -5,7 +5,6 @@
 
 ## Table of Contents
 
-- [Project Demo](#project-demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
@@ -23,9 +22,6 @@
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-## Project Demo
-
-[Add a link to a hosted demo or include GIF/screenshots of the project in action]
 
 ## Features
 
