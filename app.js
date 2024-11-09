@@ -1,5 +1,8 @@
 const express = require('express');
 const morgan = require('morgan');
+require("dotenv").config();
+
+
 
 // Correct the import names
 const tourRouter = require('./routes/tourRouters');
@@ -7,9 +10,14 @@ const userRouter = require('./routes/userRouters');
 
 const app = express();
 
-// 1) Middleware
-console.log(process.env.NODE_ENV);
 
+
+app.listen(process.env.PORT, () => {
+    console.log(`Server is running on ${process.env.PORT}.....`);
+});
+
+
+// 1) Middleware
 if(process.env.NODE_ENV === 'DEVELOPMENT'){
     app.use(morgan('dev'));
 }
