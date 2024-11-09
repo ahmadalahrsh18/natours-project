@@ -4,23 +4,23 @@
   "description": "Learn Node.js, Express, and MongoDB",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "dev": "nodemon server.js",
+    "app": "nodemon app.js",
     "lint": "eslint ."
   },
   "author": "Ahmad",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.3.1",
-    "express": "^5.0.0",
-    "mongodb": "^6.10.0",
-    "mongoose": "^8.8.0",
-    "morgan": "^1.10.0"
-  },
   "devDependencies": {
-    "eslint": "^8.50.0",
-    "eslint-plugin-import": "^2.35.0",
-    "eslint-plugin-jsx-a11y": "^6.8.1",
-    "eslint-plugin-react": "^7.35.0"
+    "eslint": "^9.14.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.2",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "morgan": "^1.10.0"
   }
 }
